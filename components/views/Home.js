@@ -1,5 +1,5 @@
 import html from "html-literal";
-import catImage from '/assets/images/cat.jpg';
+import catImage from "/assets/images/cat.jpg";
 
 export default () => html`
   <section id="jumbotron">
@@ -8,7 +8,6 @@ export default () => html`
       >"Call to Action" "Button"</a
     >
   </section>
+
   <img src="${catImage}" />
 `;
-
-
